@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Firefox Addons Search",
+  "version": "0.0.1",
+  "description": "Search Firefox Addons from URL bar",
+  "icons": {
+    "64": "icons/firefox64.png"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Addons Search",
+      "search_url": "https://addons.mozilla.org/en-US/firefox/search/?platform=windows&q={searchTerms}",
+      "favicon_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Firefox_Logo%2C_2019.png",
+      "keyword": "addon"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{7fce5c7b-9442-4131-9b32-4de9256d3a51}",
+      "strict_min_version": "55.0"
+    }
+  }
+}

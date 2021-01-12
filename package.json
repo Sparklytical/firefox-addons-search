@@ -1,0 +1,29 @@
+{
+  "name": "firefox-addons-search",
+  "version": "0.0.2",
+  "private": true,
+  "license": "(MIT OR CC-BY-NC-SA-3.0)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sparklytical/firefox-addons-search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sparklytical/firefox-addons-search/issues"
+  },
+  "homepage": "https://addons.mozilla.org/en-US/firefox/addon/addons/",
+  "scripts": {
+    "test": "web-ext lint",
+    "build": "web-ext build --overwrite-dest",
+    "dev": "web-ext run"
+  },
+  "devDependencies": {
+    "web-ext": "^5.4.1"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "webExt": {
+    "sourceDir": "./src",
+    "artifactsDir": "./dist"
+  }
+}
