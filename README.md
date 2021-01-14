@@ -1,6 +1,7 @@
 # Node Package Manager addons Search add-on for Firefox.
 
-Install from [Mozilla Addon Store](https://addons.mozilla.org/en-US/firefox/addon/addons-search/).
+[![Click here!](https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png)](https://addons.mozilla.org/en-US/firefox/addon/addons-search/)
+
 
 ## Develop
 
